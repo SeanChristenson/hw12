@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      background-color: #3b1905;
+      color: #5cf3b9;
+      padding: 20px;
+    }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    nav {
+      background-color: #522207;
+      color: #5cf3b9;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav a {
+      color: #5cf3b9;
+      text-decoration: none;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #522207;
+      color: #5cf3b9;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    main h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    main p {
+      line-height: 1.5;
+    }
+
+    @media (min-width: 1280px) {
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .logo {
+        font-size: 36px;
+      }
+      
+      nav ul {
+        display: flex;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      main {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-gap: 20px;
+      }
+      
+      footer {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1279px) {
+      .logo {
+        font-size: 30px;
+      }
+      
+      nav li {
+        margin-right: 15px;
+      }
+      
+      main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+      }
+    }
+   
+    @media (max-width: 767px) {
+      .logo {
+        font-size: 24px;
+      }
+      
+      nav li {
+        margin-right: 10px;
+      }
+      
+      main {
+        display: block;
+      }
+    }
+    
+    main img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+    
+    main p {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="images/_128490887_beaver_getty.jpg" alt="image" style="width: 5%;"></div>
+    <h1>BEAVERS</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>About</h2>
+    <p>Did you know that beavers are amazing builders? They are like architects of the animal world! Beavers build their homes, called lodges, using sticks, mud, and even rocks. Their lodges have underwater entrances that keep them safe from other animals. Beavers also make big dams by using branches and mud. These dams create special ponds called beaver ponds, where they can swim and play. Beavers have big, sharp teeth called incisors that never stop growing, just like your nails! They use their teeth to chew through trees and build their homes. Beavers are super busy and work all night long. They are nature's construction workers, making their homes in the rivers and creating homes for lots of other animals too!</p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iyNA62FrKCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </main>
+
+  <footer>
+    <p>&copy; BEAVERS BEAVERS BEAVERS ONLY BEAVERS HERE. All rights reserved for BEAVERS of course.</p>
+  </footer>
+</body>
+</html>
